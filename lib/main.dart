@@ -1,3 +1,4 @@
+import 'package:client_server_flutter/ui/list_data_user_view.dart';
 import 'package:client_server_flutter/ui/list_user_view.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageListUserView()
+      home: PageListDataView()
     );
   }
 }
